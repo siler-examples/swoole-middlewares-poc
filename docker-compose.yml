@@ -1,0 +1,11 @@
+version: '3'
+services:
+  server:
+    container_name: swoole_middlewares_poc
+    image: leocavalcante/dwoole:dev
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000
+    environment:
+      ENTRY_POINT_FILE: bin/server.php
