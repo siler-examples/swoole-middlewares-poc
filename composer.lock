@@ -1,20 +1,20 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "9f17248a32c64a08aa5afd667dbc3e7b",
-    "packages": [
-        {
-            "name": "leocavalcante/siler",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leocavalcante/siler.git",
-                "reference": "af2bdeb83eeeb6526474b953dec4e40a6ff86122"
-            },
-            "dist": {
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "e330b6a0db858e585a99e88a937d2b15",
+  "packages": [
+    {
+      "name": "leocavalcante/siler",
+      "version": "dev-master",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leocavalcante/siler.git",
+        "reference": "af2bdeb83eeeb6526474b953dec4e40a6ff86122"
+      },
+      "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/leocavalcante/siler/zipball/af2bdeb83eeeb6526474b953dec4e40a6ff86122",
                 "reference": "af2bdeb83eeeb6526474b953dec4e40a6ff86122",
@@ -85,18 +85,68 @@
                 }
             ],
             "description": "Siler is a set of general purpose high-level abstractions aiming an API for declarative programming in PHP.",
-            "keywords": [
-                "api",
-                "framework",
-                "functional",
-                "graphql",
-                "micro",
-                "router",
-                "swoole"
-            ],
-            "time": "2019-12-11T21:03:42+00:00"
+      "keywords": [
+        "api",
+        "framework",
+        "functional",
+        "graphql",
+        "micro",
+        "router",
+        "swoole"
+      ],
+      "time": "2019-12-11T21:03:42+00:00"
+    },
+    {
+      "name": "psr/http-message",
+      "version": "1.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git",
+        "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
         }
-    ],
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "http://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for HTTP messages",
+      "homepage": "https://github.com/php-fig/http-message",
+      "keywords": [
+        "http",
+        "http-message",
+        "psr",
+        "psr-7",
+        "request",
+        "response"
+      ],
+      "time": "2016-08-06T14:39:51+00:00"
+    }
+  ],
     "packages-dev": [
         {
             "name": "swoole/ide-helper",
