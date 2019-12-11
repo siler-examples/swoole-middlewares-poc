@@ -12,6 +12,6 @@ $get_name = new GetName('Siler', 'Laravel');
 
 $greet = fn(Request $req, Response $res) => emit("Hello {$req->name}");
 
-$handler = [$get_name, $greet];
+$pipeline = [$get_name, $greet];
 
-http(middleware($handler), 8000)->start();
+http(middleware($pipeline), 8000)->start();
